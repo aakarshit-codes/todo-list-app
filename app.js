@@ -46,7 +46,8 @@ function saveTasks() {
     const tasks = [];
 
     /* 
-    traversing through the list elements and adding the text part to the tasks array */
+    traversing through the list elements and adding the text part to the tasks array 
+    */
     taskList.querySelectorAll('li').forEach(task => {
         tasks.push(task.firstChild.textContent);
     });
